@@ -1,7 +1,7 @@
-# abif
-Command line tool to read Applied Biosystems Genetic Analysis  Data File Format
+# Abif
+A command line tool to read Applied Biosystems Genetic Analysis Data File Format.
 
-A command line tool to read (ABIF file)[http://www6.appliedbiosystems.com/support/software_community/ABIF_File_Format.pdf] for Genetic Analysis. This application can read *.ab1 and *.fsa file . 
+A command line tool to read [ABIF file](http://www6.appliedbiosystems.com/support/software_community/ABIF_File_Format.pdf) for Genetic Analysis. This application can read *.ab1 and *.fsa file . 
 
 # Compilation 
 Abif is a C++11 application.
@@ -9,14 +9,14 @@ TCLAP is the only one depedency.
 
     sudo apt-get install libtclap-dev.
 
-# Installation 
+# Installation with qmake from Qt5
 
     qmake abif.pro
     make 
     make install
 
-# Use 
-##show all keys 
+# Howto 
+##Display all keys 
 
     abif -l example.fsa
     
@@ -26,7 +26,7 @@ TCLAP is the only one depedency.
     CTOw.1  1       19      1       3       3       1936392192      0
 
   
-## Show value 
+## Display value from key
 
     abif -k DATA.1 example.fsa 
     
