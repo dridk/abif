@@ -2,9 +2,7 @@
 #include <fstream>
 #include <byteswap.h>
 #include <tclap/CmdLine.h>
-#include <QtCore>
 #include "abif.h"
-#include <QDebug>
 using namespace std;
 
 int main(int argc, char** argv)
