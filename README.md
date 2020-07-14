@@ -9,11 +9,10 @@ TCLAP is the only one depedency.
 
     sudo apt-get install libtclap-dev.
 
-# Installation with qmake from Qt5
+# Compilation
 
-    qmake abif.pro
-    make 
-    make install
+    make
+    ./abif --version
 
 # Howto 
 ##Display all keys 
